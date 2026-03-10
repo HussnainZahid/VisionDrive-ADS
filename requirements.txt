@@ -1,0 +1,20 @@
+# Vision ADS – Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Deep learning object detection (choose one)
+# Option A – YOLOv4-tiny via OpenCV DNN: no extra pip install needed
+# Option B – Ultralytics YOLOv8 (GPU-accelerated, highly accurate):
+# ultralytics>=8.0.0
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Display (optional – for live window)
+# pygame>=2.5.0   # alternative display backend
+
+# Utilities
+tqdm>=4.65.0      # download progress bars
+Pillow>=9.5.0     # image loading helpers
